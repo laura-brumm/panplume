@@ -118,13 +118,13 @@ img {
 	
 		a {
 			color: $black;
+			transition: 0.3s ease-in-out;
 		}
 		
 		&:hover {
 			a {
 				text-decoration: none;
 				color: $gray;
-				transition: 0.3s ease-in-out;
 			}
 		}
 		
@@ -212,6 +212,7 @@ img {
 		border: 2px solid black;
 		border-radius: 0;
 		margin-top: 30px;
+		transition: 0.4s ease;
 	}
 	
 	a:hover {
@@ -219,7 +220,6 @@ img {
 		background: black;
 		color: white;
 		text-decoration: none;
-		transition: 0.4s ease;
 	}
 }
 
@@ -265,6 +265,8 @@ img {
 		margin-top: 25px;
 		padding: 5px 25px;
 		font-size: 20px;
+		transition: 0.4s ease;
+
 	}
 	
 	a:hover {
@@ -272,7 +274,6 @@ img {
 		background: black;
 		border: 2px solid black;
 		text-decoration: none;
-		transition: 0.4s ease;
 	}
 }
 
@@ -330,11 +331,18 @@ img {
 	padding: 0;
 	margin: 0;
 	background: $black;
+	max-height: 300px;
 	
 	&:hover {
 		.slick-arrow {
 			opacity: 1;
 		}
+	}
+
+	.img {
+		width: 100%;
+		max-width: 100%;
+		height: auto;
 	}
 }
 

@@ -148,11 +148,13 @@ img {
 }
 
 .banner__main-content {
-	background-image: url("https://static.wixstatic.com/media/33d1d1_cd27f13355d74ad29860e1bb6ca62a45.jpg/v1/fill/w_1688,h_1125,al_c,q_85/33d1d1_cd27f13355d74ad29860e1bb6ca62a45.webp");
+	background-image: url("img/banner.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
 }
 
 .banner__heading {
@@ -183,7 +185,7 @@ img {
 /* ----- SPLIT SECTION ----- */
 
 .bg-img-pineapple {
-	background-image: url("https://static.wixstatic.com/media/33d1d1_1c4cb8138df44e938b79df2b7b730009.jpg/v1/fill/w_943,h_1090,al_c,q_85/33d1d1_1c4cb8138df44e938b79df2b7b730009.webp");
+	background-image: url("img/pineapple.jpg");
 }
 
 .section__split-content {
@@ -281,7 +283,7 @@ img {
 /* ----- SPLIT SECTION: Two ----- */
 
 .bg-img-banana {
-	background: url("https://static.wixstatic.com/media/5b3a4de45f77e12c6afad3aabb960242.png/v1/crop/x_0,y_0,w_330,h_331/5b3a4de45f77e12c6afad3aabb960242.png"), $mint;
+	background: url("img/banana.png"), $mint;
 }
 
 .align-right {
@@ -292,7 +294,7 @@ img {
 /* ----- FULL SECTION: Two ----- */
 
 .bg-img-headphones {
-	background: url("https://static.wixstatic.com/media/33d1d1_952ed95c7ad44e9685f5b523ffea5e1a.jpg/v1/fill/w_1688,h_929,al_c,q_85/33d1d1_952ed95c7ad44e9685f5b523ffea5e1a.webp"), $light-pink;
+	background: url("img/headphones.jpg"), $light-pink;
 	background: {
 		position: center;
 		size: cover;
@@ -317,7 +319,7 @@ img {
 /* ----- SPLIT SECTION: Three ----- */
 
 .bg-img-chalk {
-	background: url("https://static.wixstatic.com/media/5843fd441210455f98fc114b1c11a68c.jpg/v1/fill/w_1100,h_465,al_c,q_85/5843fd441210455f98fc114b1c11a68c.webp"), $mint;
+	background: url("img/chalk.jpg"), $mint;
 	background-position: right;
 	background-size: cover;
 	background-repeat: no-repeat;
